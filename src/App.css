@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   @import url("https://use.typekit.net/vcl5gde.css");
   font-family: sweet-sans-pro, sans-serif;
 }
@@ -101,11 +104,27 @@ line-height: 48px;
   color: #1F8832;
 }
 
+/* FEATURED PROJECTS ON HOME PAGE */
+.featured-projects {
+ background-color:#F4F7FA;
+ padding: 20px;
+ text-align:center;
+}
+
+#project-button {
+  background-color: white;
+  color: #5586B8;
+  border: none;
+  font-size: 35px;
+  padding: 30px;
+  border: 2px solid #5586B8;
+}
+
 /* RESUME CONTAINER */
 .Resume {
   width: 100%;
   background-color: #5586B8;
-  border: none;
+  /* border: none; */
   color: white;
   padding: 40px;
   font-size: 25px;
@@ -119,6 +138,7 @@ line-height: 48px;
   border-bottom: 2px solid #1F8832;
   text-align:center;
 }
+
 #contact {
   font-family: span, serif;
   font-weight: 600;
@@ -133,7 +153,6 @@ line-height: 48px;
   background-color: #5586B8;
   border: none;
   color: white;
-  
 }
 
 /*  FOOTER */

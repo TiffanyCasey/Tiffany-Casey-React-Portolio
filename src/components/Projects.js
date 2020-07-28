@@ -1,39 +1,43 @@
 import React from "react";
-import {Card, Button, CardImg, CardTitle, CardText, CardGroup,
-  CardSubtitle, CardBody
+import {Card, Button, CardImg, CardTitle, CardText,CardBody
 } from 'reactstrap';
+import bookclub from "../Images/BookClub.png"
 
 const Projects = (props) => {
   return (
-    <CardGroup>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
-    </CardGroup>
+    // <CardGroup style={{margin:"50px", backgroundColor: "red"}}>
+    <div className="featured-projects">
+      <div class="row">
+        <div class="col col-md-6">
+          <Card>
+            <Button id="project-button" block>BOOK CLUB</Button>
+            <CardImg top width="100%" src={bookclub} alt="Card image cap" />
+            <CardBody>
+              <CardTitle style={{fontSize: "18px", fontWeight: "bold"}}>DESCRIPTION:</CardTitle>
+              <CardText style={{fontSize:"18px"}}>My Bookclub is a way for you to find ideas for what book to read next. Join an online bookclub and read along with the chosen book or add your own suggestions for what you think the club should read next. You can also create you own bookclub and keep track of all of the books on your reading wishlist. If you’re looking for book recommendations check out our list of top books that users are enjoying this month.</CardText>
+              <CardTitle style={{fontSize: "18px", fontWeight: "bold"}}>TECHNOLOGIES USED:</CardTitle>
+              <CardText> HTML5, CSS3, Materialize, Handlebars, JavaScript, jQuery, NY Times API, Google Books API</CardText>
+              <CardTitle style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832"}}> GITHUB | DEPLOYED SITE</CardTitle>
+            </CardBody>
+          </Card>
+        </div>
+     
+        <div class="col col-md-6">
+          <Card>
+            <Button id="project-button" block>BOOK CLUB</Button>
+            <CardImg top width="100%" src={bookclub} alt="Card image cap" />
+            <CardBody>
+            <CardTitle style={{fontSize: "18px", fontWeight: "bold"}}>DESCRIPTION:</CardTitle>
+            <CardText style={{fontSize:"18px"}}>My Bookclub is a way for you to find ideas for what book to read next. Join an online bookclub and read along with the chosen book or add your own suggestions for what you think the club should read next. You can also create you own bookclub and keep track of all of the books on your reading wishlist. If you’re looking for book recommendations check out our list of top books that users are enjoying this month.</CardText>
+              <CardTitle style={{fontSize: "18px", fontWeight: "bold"}}>TECHNOLOGIES USED:</CardTitle>
+              <CardText style={{fontSize:"18px"}}> HTML5, CSS3, Materialize, Handlebars, JavaScript, jQuery, NY Times API, Google Books API</CardText>
+              <CardTitle style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832"}}> GITHUB | DEPLOYED SITE</CardTitle>
+            </CardBody>
+          </Card>
+        </div>
+      </div>
+        <button className="btn-lg">SEE FULL PORTFOLIO</button>
+      </div> 
   );
 };
   
