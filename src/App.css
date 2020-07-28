@@ -9,16 +9,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* NAV BAR */
-.App-header {
-  background-color: #CED7E0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .nav-link , .mr-auto{
   color: #707070;
@@ -44,14 +35,58 @@ h1 {
 }
 
 /*  ABOUT PAGE  */
+
+.App-header {
+  background-color: #F4F7FA;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display:block; 
+}
+
+.about-container {
+  padding: 50px;
+  display:block; 
+}
+
 .Tiffany-Image {
-  width: 346px;
-  height: 526px;
+  margin-top: 10%;
+  margin-left: -20px;
+  border-radius: 160px;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+.about-container-text {
+  background-color: white;
+  padding: 50px;
+}
+
+#about-header {
+  font-size: 45px;
+  color: #707070;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+#about-text {
+font-size: 25px;
+color: #707070;
+line-height: 48px;
+}
+
+#link {
+  color: #1F8832;
 }
 
 /*  FOOTER */
 footer {
-  background-color: #CED7E0;
+  background-color: #F4F7FA;
   padding: 25px;
   color: white;
   text-align: center;

@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
+import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,NavLink,
 } from 'reactstrap';
-
+// import { Route } from "react-router-dom";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,11 +25,11 @@ const NavBar = (props) => {
             </NavItem>
 
             <NavItem>
-              <NavLink href="/skills/">SKILLS</NavLink>
+              <NavLink href="/skills">SKILLS</NavLink>
             </NavItem>
 
             <NavItem>
-              <NavLink href="/contact/">CONTACT</NavLink>
+              <NavLink href="/contact">CONTACT</NavLink>
             </NavItem>
           </Nav>
 
