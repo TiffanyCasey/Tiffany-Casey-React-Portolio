@@ -3,19 +3,36 @@
   font-family: sweet-sans-pro, sans-serif;
 }
 
+body {
+  margin: 0;
+  font-family: sweet-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
 .Header {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 font-family: 'Open Sans', sans-serif;
 }
 
 /* NAV BAR */
-
-
 .nav-link , .mr-auto{
   color: #707070;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+header {
+  font-family: span, serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  color: #EDC53A;
+  padding: 30px;
+  border-top: 2px solid #1F8832;
+  border-bottom: 2px solid #1F8832;
 }
 
 #favicon {
@@ -84,6 +101,41 @@ line-height: 48px;
   color: #1F8832;
 }
 
+/* RESUME CONTAINER */
+.Resume {
+  width: 100%;
+  background-color: #5586B8;
+  border: none;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+  text-align: center;
+  }
+
+  /* CONTACT CONTAINER  */
+.contact-container {
+  padding: 70px;
+  border-top: 2px solid #1F8832;
+  border-bottom: 2px solid #1F8832;
+  text-align:center;
+}
+#contact {
+  font-family: span, serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  color: #EDC53A;
+}
+
+.btn-lg {
+  margin-top: 20px;
+  background-color: #5586B8;
+  border: none;
+  color: white;
+  
+}
+
 /*  FOOTER */
 footer {
   background-color: #F4F7FA;
@@ -92,6 +144,8 @@ footer {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+
 
 /* Mobile Changes  */
 

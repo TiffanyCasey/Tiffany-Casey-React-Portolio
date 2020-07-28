@@ -1,8 +1,12 @@
 import React from "react";
+// import {Button} from 'reactstrap';
 
 function Nav() {
     return (
-      <h1> CONTACT</h1>
+      <div className="contact-container">
+        <h2 id="contact">get in touch.</h2>
+        <button type="button" class="btn-lg">CONTACT </button>
+      </div>
     );
   }
   
