@@ -5,7 +5,6 @@ import bookclub from "../Images/BookClub.png"
 
 const Projects = (props) => {
   return (
-    // <CardGroup style={{margin:"50px", backgroundColor: "red"}}>
     <div className="featured-projects">
       <div class="row">
         <div class="col col-md-6">
