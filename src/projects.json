@@ -1,0 +1,74 @@
+[
+    {
+        "id": 7,
+        "image": "images/bookclub.jpg",
+        "name":"Book Club",
+        "description": "My Bookclub is a way for you to find ideas for what book to read next. Join an online bookclub and read along with the chosen book or add your own suggestions for what you think the club should read next. You can also create you own bookclub and keep track of all of the books on your reading wishlist. If you're looking for book reccomendations check out our list of top books that users are enjoying this month.",
+        "tech": "HTML5, CSS3, Materialize, Handlebars, JavaScript, jQuery, NY Times API, Google Books API",
+        "github": "https://github.com/TiffanyCasey/BookClub",
+        "site": "https://book-club-application.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "image": "images/dineindineout.jpg",
+        "name":"Dine In. Dine out.",
+        "description": "We’ve all been there before. You’re hungry, but you don’t quite know what you want to eat. Should you use what you have in your fridge, or is there something close by you can pick up? With “What’s for Dinner” you can quickly navigate between the two options and see what’s at your fingertips before you start to get hangry.",
+        "tech": "HTML5, CSS3, Materialize, JavaScript, jQuery, Spoonacular API, Zomato API",
+        "github": "https://github.com/TiffanyCasey/wineAndDine",
+        "site": "https://jvernot.github.io/wineAndDine/"
+    },
+    {
+        "id": 1,
+        "image": "images/weather.jpg",
+        "name":"Weather Dashboard",
+        "description": " Enter any city name and get a detailed report on the daily weather as well as the upcoming five day forecast. All city searches are saved in the sidebar so that you can quickly click through and stay up to date on the local weather you care about.",
+        "tech": "HTML5, CSS3, JavaScript, jQuery, Moment.js. OpenWeather API",
+        "github": "https://github.com/TiffanyCasey/Weather-Dashboard",
+        "site": "https://tiffanycasey.github.io/Weather-Dashboard/"
+    },
+    {
+        "id": 2,
+        "image":"images/codequiz.jpg",
+        "name":"Code Quiz",
+        "description": "Test your JavaScript knowledge with our quiz! You have 90 seconds to answer six multiple questions. You start with 90 points and loose 10 points every answer you get wrong. Your final score is the remaining seconds when you complete the quiz. When done, enter your initials to be recorded in the high score list!",
+        "tech": "HTML5, CSS3, Bootstrap, JavaScript",
+        "github": "https://github.com/TiffanyCasey/Code-Quiz",
+        "site": "https://tiffanycasey.github.io/Code-Quiz/"
+    },
+    {
+        "id": 3,
+        "image": "images/scheduler.jpg",
+        "name":"Day Planner",
+        "description": "This is a simple calendar application that allows the user to save tasks for each specific hour of the current day. The user types in the task they would like to complete in the row with the relevant hour and clicks the save button on the far right. All tasks that are saved are stored locally and will remain in the text box until cleared. The current date and time are dynamically. Additionally, each row is dynamically updated by color based on the current time.",
+        "tech": "HTML5, CSS3, JavaScript, jQuery, Moment.js",
+        "github": "https://github.com/TiffanyCasey/Work-Day-Scheduler",
+        "site": "https://tiffanycasey.github.io/Work-Day-Scheduler/"
+    },
+    {
+        "id": 4,
+        "image": "images/password.jpg",
+        "name":"Password Generator",
+        "description": "A password is randomly generated based on criteria that the user provides when prompted. When the user clicks the button 'Generate Password' they are first promoted for password length. If outside the range of 8-50, the user is prompted to once again enter a password length within the range. The prompt will loop until the user enters a valid number. The program then prompts the user to define if they would like to include numbers, characters, uppercase and/or lowercase letters. If the user selects none to all criteria, the program will ask it to select at least each one and will loop back through the prompts. When all parameters have been defined, the password will appear within the password box.",
+        "tech": "HTML5, CSS3, JavaScript",
+        "github": "https://github.com/TiffanyCasey/Password-Generator",
+        "site": "https://tiffanycasey.github.io/Password-Generator/"
+    },
+    {
+        "id": 6,
+        "image": "images/employeesummary.jpg",
+        "name":"Employee Summary",
+        "description": "The application will prompt the user for information about the team members. The user can input any number of team members, and they may be a mix of managers, engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user.",
+        "tech": "JavaScript, Node JS",
+        "github": "https://github.com/TiffanyCasey/Employee-Summary",
+        "site": "https://www.googledrive.com/host/1pa03m28vmpBQ0suPltUCJemYr5gRCJ6L"
+    },
+    {
+        "id": 8,
+        "image": "images/notetaker.jpg",
+        "name":"Note Taker",
+        "description": "An application that can be used to write, save, and delete notes. It uses an express backend to save and retrieve note data from a JSON file.",
+        "tech": "JavaScript, Node JS",
+        "github": "https://github.com/TiffanyCasey/Note-Taker",
+        "site": "https://note-taking-application-2020.herokuapp.com/"
+    }    
+]

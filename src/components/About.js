@@ -1,5 +1,5 @@
 import React from "react";
-import tiffany from "../Images/Tiffany.jpg"
+import tiffany from "../components/Tiffany.jpg"
 
 function About() {
     return (
@@ -7,11 +7,11 @@ function About() {
     <div className="App">
       <div className="App-header">
         <span className="about-container">
-          <div class="row">
-            <div class="col-sm-3">
+          <div className="row">
+            <div className="col-sm-3">
               <img src={tiffany} className="Tiffany-Image" alt="Tiffany headshot" />
             </div>   
-            <div class="col-sm-9">
+            <div className="col-sm-9">
               <div className="about-container-text">
                 <h2 id="about-header">Hello!</h2>
                 <p id="about-text">I’m Tiffany and I’m a full stack web developer leveraging a successful career in tech sales and account management as well as the e-commerce space. I have a certificate in full stack development from the University of North Carolina-Chapel Hill, with skills in HTML, CSS, JavaScript, React.js, and responsive web design.</p>
