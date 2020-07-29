@@ -42,7 +42,9 @@ state = {
       </div>
 
       <div className='Projects'>
-        <Header></Header>
+        <Header
+          header="projects."
+        />
         {this.state.projects.map(project => (
         <Portfolio
           key={project.id}
@@ -59,7 +61,9 @@ state = {
       </div>
 
       <div className='Skills'>
-        <Header></Header>
+        <Header
+          header="skills."
+        />
         <Skills></Skills>
       </div>
 
