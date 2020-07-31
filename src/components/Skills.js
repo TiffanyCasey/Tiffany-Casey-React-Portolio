@@ -6,22 +6,22 @@ function Skills() {
           <table className="table table-borderless">
             <tbody>
               <tr>
-                <td>HTML</td>
-                <td>MySQL</td>
-                <td>jQuery</td>
-                <td>APIs</td>
+                <th>HTML</th>
+                <th>MySQL</th>
+                <th>jQuery</th>
+                <th>APIs</th>
               </tr>
               <tr>
-                <td>CSS</td>
-                <td>SQL</td>
-                <td>Node.JS</td>
-                <td>Tests</td>
+                <th>CSS</th>
+                <th>SQL</th>
+                <th>Node.JS</th>
+                <th>Tests</th>
               </tr>
               <tr>
-                <td>JavaScript</td>
-                <td>MongoDB</td>
-                <td>React</td>
-                <td>Adobe XD</td>
+                <th>JavaScript</th>
+                <th>MongoDB</th>
+                <th>React</th>
+                <th>Adobe XD</th>
               </tr>
             </tbody>
           </table>

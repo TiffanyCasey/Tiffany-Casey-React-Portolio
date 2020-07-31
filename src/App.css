@@ -4,12 +4,17 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 /*  SUBTRACT HEADER + FOOTER PIXELS TO MAKE FOOTER STICKY */
+
+* {
+  font-family: sweet-sans-pro, sans-serif; 
+}
+
 main {
   min-height: calc(100vh - 238px);
+  display:block; 
 }
 
 body {
-  font-family: sweet-sans-pro, sans-serif; 
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -28,10 +33,10 @@ h1 {
   font-style: bold;
   font-size: 50px;
   text-align: center;
-  display: block;
   padding-top: 10px;
   padding-bottom: 20px;
 }
+
 
 /* .grid-container {
   display: flex !important;
@@ -50,7 +55,7 @@ h1 {
 }
 
 header {
-  font-family: sweet-sans-pro, sans-serif;
+  font-family: sweet-sans-pro, sans-serif !important;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -68,9 +73,9 @@ header {
 }
 
 /* HEADER DIVIDER CONTAINER */
-.header {
-  font-family: 'Open Sans', sans-serif;
-  }
+header {
+  font-family: span, serif !important;
+}
 
 /*  ABOUT PAGE CONTAINER  */
 .App-header {
@@ -82,12 +87,10 @@ header {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  display:block; 
 }
 
 .about-container {
   padding: 50px;
-  display:block; 
 }
 
 .Tiffany-Image {
@@ -122,15 +125,24 @@ line-height: 48px;
 }
 
 /* FEATURED PROJECTS ON HOME PAGE */
+/* .wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+} */
 
 .Projects {
   background-color:#F4F7FA;
-  padding: 40px;
+  padding: 10px;
 }
 
 .featured-projects {
  background-color:#F4F7FA;
- padding: 20px;
+ padding: 10px;
  text-align:center;
 }
 
@@ -150,15 +162,20 @@ line-height: 48px;
 
 }
 
-
-
-
 /* SKILLS CONTAINER */
+
+/* display: block !important allows cells to stack on mobile */
+th {
+  font-weight: lighter;
+  /* display: block !important;  */
+
+}
 
 .table-responsive {
   font-size: 40px;
   text-align: center;
   padding: 80px;
+  height: 100%;
 }
 
 /* RESUME CONTAINER */
@@ -186,6 +203,7 @@ line-height: 48px;
   text-align: center;
   font-size: 40px;
   color: #EDC53A;
+  padding-bottom: 40px;
 }
 
 /* FOOTER */
@@ -194,5 +212,22 @@ footer {
   padding: 25px;
   color: #707070;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width:660px) {
+body {
+  margin: 0 !important
+}
+
+table, .table-responsive {
+  width: 320px !important;
+  padding: 0 0;
+  min-width: 320px !important;
+}
+
+th {
+  display: block !important;
+  text-align: center;
+}
 }
