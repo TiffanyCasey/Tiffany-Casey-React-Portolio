@@ -7,7 +7,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink,
 function NavBar () {
   return (
     <header>
-      <Navbar color="white" light expand="md">
+      <Navbar className="navbar" color="white" light expand="md">
         <NavbarBrand id="favicon" href="/">TC</NavbarBrand>
           <Nav className="mr-auto" navbar>
 
@@ -30,7 +30,7 @@ function NavBar () {
           </Nav>
       </Navbar>
 
-      <h1 id="removeMobile">
+      <h1 className="TiffanyCasey" id="removeMobile">
         TIFFANY CASEY
       </h1>
 

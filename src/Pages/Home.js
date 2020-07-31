@@ -4,8 +4,6 @@ import projects from "../projects.json";
 import About from '../components/About';
 import Portfolio from '../components/Portfolio'
 import Skills from '../components/Skills';
-import Contact from '../components/Contact';
-import Resume from '../components/Resume';
 import Header from '../components/Header';
 import Wrapper from '../components/Wrapper';
 
@@ -52,8 +50,8 @@ class App extends Component {
           />
         </Wrapper>
         
-       
-        <button 
+       <div className="buttonWrapper">
+        <button
           type="submit"
           className="profile btn-lg"
           onClick={(event) => (window.location.href = "portfolio")}
@@ -61,7 +59,7 @@ class App extends Component {
           SEE FULL PORTFOLIO
           </button>
         </div>
- 
+      </div>
 
       {/* SKILLS SECTION */}
       <div className='Skills'>
@@ -71,16 +69,6 @@ class App extends Component {
         <Skills />
         </div>
 
-      {/* RESUME SECTION */}
-      <div className='Resume'>
-        <Resume />
-      </div>
-
-      {/* CONTACT SECTION */}
-      <div className='Contact'>
-        <Contact />
-
-      </div>
     </div>
   </main>
   );

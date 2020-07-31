@@ -25,7 +25,22 @@ function Skills() {
               </tr>
             </tbody>
           </table>
+      
+
+      <div className="resumeWrapper">
+          <a
+            type="submit"
+            className="Resume"
+            // onClick={(event) => (window.location.href = "contact")}
+            href="https://drive.google.com/file/d/1lQ0DFKXlFZPcc_YD1DdXwwkFqTnORYoc/view?usp=sharing" 
+            rel="noopener noreferrer" 
+            target="_blank"
+            >
+            VIEW MY RESUME
+            </a>
+      </div>
       </div> 
+     
     );
   }
   
