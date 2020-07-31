@@ -3,17 +3,18 @@ import React, { Component } from 'react';
 import Portfolio from '../components/Portfolio'
 import projects from "../projects.json";
 
+
 class PortfolioPage extends Component {
 
-state = {
-    projects
- };
+    state = {
+        projects
+      };
 
 render () {
 return (
     <main>
         <div className ="grid-container">
-        {this.state.projects.map(project => (
+        {projects.map(project => (
             <Portfolio
             key={project.id}
             id={project.id}

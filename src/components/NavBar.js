@@ -19,9 +19,9 @@ function NavBar () {
               <NavLink tag={Link} to="/portfolio">PORTFOLIO</NavLink>
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               <NavLink tag={Link} to="/skills">SKILLS</NavLink>
-            </NavItem>
+            </NavItem> */}
 
             <NavItem>
               <NavLink tag={Link} to="/contact">CONTACT</NavLink>

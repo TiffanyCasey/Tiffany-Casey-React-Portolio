@@ -1,6 +1,7 @@
 import React from "react";
 import {Card, Button, CardImg, CardTitle, CardText,CardBody
 } from 'reactstrap';
+import Wrapper from "../components/Wrapper";
 
 
 function Projects(props) {
@@ -8,6 +9,7 @@ function Projects(props) {
     <div className="featured-projects">
       <div className="row">
         <div className="col col-md-6">
+          <Wrapper>
           <Card>
             <Button id="project-button" block>{props.name}</Button>
             <CardImg top width="100%" src={props.picture} alt="website image"/>
@@ -19,9 +21,11 @@ function Projects(props) {
               <CardTitle style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832"}}> GITHUB | DEPLOYED SITE</CardTitle>
             </CardBody>
           </Card>
+          </Wrapper>
         </div>
+        
      
-        <div className="col col-md-6">
+        {/* <div className="col col-md-6">
           <Card>
             <Button id="project-button" block>{props.name}</Button>
             <CardImg top width="100%" src={props.picture} alt="website image"/>
@@ -33,7 +37,7 @@ function Projects(props) {
               <CardTitle style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832"}}> GITHUB | DEPLOYED SITE</CardTitle>
             </CardBody>
           </Card>
-        </div>
+        </div> */}
 
       </div>
       </div> 
