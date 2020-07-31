@@ -37,15 +37,6 @@ h1 {
   padding-bottom: 20px;
 }
 
-
-/* .grid-container {
-  display: flex !important;
-  flex-direction: column;
-  height: 100% !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-} */
-
 /* NAV BAR */
 .nav-link , .mr-auto{
   color: #707070;
@@ -124,31 +115,39 @@ line-height: 48px;
   color: #1F8832;
 }
 
-/* FEATURED PROJECTS ON HOME PAGE */
-/* .wrapper {
-  padding-top: 50px;
+/* FEATURED PROJECTS  */
+.wrapper {
   height: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-} */
-
-.Projects {
-  background-color:#F4F7FA;
-  padding: 10px;
 }
 
-.featured-projects {
- background-color:#F4F7FA;
- padding: 10px;
- text-align:center;
+.card {
+  margin: 1rem;
+  position: relative;
+  width: 40vh;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 100%;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.card > .content {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 15px;
 }
 
 #project-button {
-  background-color: white;
-  color: #5586B8;
+  background-color:  #5586B8;
+  color: white;
   border: none;
   font-size: 35px;
   padding: 30px;
@@ -159,7 +158,6 @@ line-height: 48px;
   display: block;
   margin: 0 auto;
   align-items: center !important;
-
 }
 
 /* SKILLS CONTAINER */
