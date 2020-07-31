@@ -20,9 +20,13 @@ state = {
   return (
   <main>
     <div className="App"> 
+
+      {/* ABOUT SECTION */}
       <div className='About'>
         <About />
       </div>
+
+      {/* PROJECTS SECTION */}
       <div className='Projects'>
         <Header
           header="projects."
@@ -39,19 +43,28 @@ state = {
           site={project.site}
         />
         ))}
-        <button className="btn-lg">SEE FULL PORTFOLIO</button>
-      </div>
+       
+        <button className="profile btn-lg">SEE FULL PORTFOLIO</button>
+        </div>
+ 
+
+      {/* SKILLS SECTION */}
       <div className='Skills'>
         <Header
           header="skills."
         />
         <Skills />
-      </div>
+        </div>
+
+      {/* RESUME SECTION */}
       <div className='Resume'>
         <Resume />
       </div>
+
+      {/* CONTACT SECTION */}
       <div className='Contact'>
         <Contact />
+
       </div>
     </div>
   </main>
