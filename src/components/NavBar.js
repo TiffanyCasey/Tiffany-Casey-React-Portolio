@@ -5,15 +5,14 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink,
 } from 'reactstrap';
 
 function NavBar () {
-
   return (
-    <div>
+    <header>
       <Navbar color="white" light expand="md">
         <NavbarBrand id="favicon" href="/">TC</NavbarBrand>
           <Nav className="mr-auto" navbar>
+
             <NavItem>
-              <NavLink tag={Link} to="/">ABOUT
-              </NavLink>
+              <NavLink tag={Link} to="/">ABOUT</NavLink>
             </NavItem>
 
             <NavItem>
@@ -27,6 +26,7 @@ function NavBar () {
             <NavItem>
               <NavLink tag={Link} to="/contact">CONTACT</NavLink>
             </NavItem>
+
           </Nav>
       </Navbar>
 
@@ -34,7 +34,7 @@ function NavBar () {
         TIFFANY CASEY
       </h1>
 
-    </div>
+    </header>
   );
 }
 

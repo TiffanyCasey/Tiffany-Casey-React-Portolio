@@ -3,7 +3,6 @@ import tiffany from "../components/Tiffany.jpg"
 
 function About() {
     return (
-
     <div className="App">
       <div className="App-header">
         <span className="about-container">
@@ -11,6 +10,7 @@ function About() {
             <div className="col-sm-3">
               <img src={tiffany} className="Tiffany-Image" alt="Tiffany headshot" />
             </div>   
+
             <div className="col-sm-9">
               <div className="about-container-text">
                 <h2 id="about-header">Hello!</h2>
@@ -21,8 +21,9 @@ function About() {
                 <p id="about-text">I am passionate about creating seamless user experiences that delight customers and elevate brands. I am well positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging my background in digital marketing and online sales. </p>
               </div>
             </div>
-            </div>
-          </span>
+
+          </div>
+        </span>
       </div>
     </div>
   );

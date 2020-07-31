@@ -1,22 +1,52 @@
-* {
+
+/*  WEB FONTS */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  
+ /* OVERALL STYLING  */
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  @import url("https://use.typekit.net/vcl5gde.css");
   font-family: sweet-sans-pro, sans-serif;
+} */
+
+main {
+  min-height: calc(100vh - 238px);
 }
 
 body {
-  margin: 0;
-  font-family: sweet-sans-pro, sans-serif;
-  font-style: normal;
-  font-weight: 100;
+  font-family: sweet-sans-pro, sans-serif; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.Header {
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-font-family: 'Open Sans', sans-serif;
+button {
+  background-color: #5586B8;
+  border: none;
+  color: white;
+  align-items: center;
 }
+
+h1 {
+  color: #1F8832;
+  font-style: bold;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* .grid-container {
+  display: flex !important;
+  flex-direction: column;
+  height: 100% !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+} */
 
 /* NAV BAR */
 .nav-link , .mr-auto{
@@ -27,7 +57,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  font-family: span, serif;
+  font-family: sweet-sans-pro, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: center;
@@ -44,17 +74,12 @@ header {
   font-size: 40px;
 }
 
-h1 {
-  color: #1F8832;
-  font-style: bold;
-  font-size: 50px;
-  text-align: center;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
+/* HEADER DIVIDER CONTAINER */
+.header {
+  font-family: 'Open Sans', sans-serif;
+  }
 
-/*  ABOUT PAGE  */
+/*  ABOUT PAGE CONTAINER  */
 .App-header {
   background-color: #F4F7FA;
   padding: 80px;
@@ -119,7 +144,7 @@ line-height: 48px;
   border: 2px solid #5586B8;
 }
 
-/* SKILLS PAGE */
+/* SKILLS CONTAINER */
 .table-responsive {
   font-size: 40px;
   text-align: center;
@@ -137,7 +162,7 @@ line-height: 48px;
   text-align: center;
   }
 
-  /* CONTACT CONTAINER  */
+/* CONTACT CONTAINER  */
 .contact-container {
   padding: 70px;
   border-top: 2px solid #1F8832;
@@ -154,30 +179,11 @@ line-height: 48px;
   color: #EDC53A;
 }
 
-.btn-lg {
-  margin-top: 20px;
-  background-color: #5586B8;
-  border: none;
-  color: white;
-}
-
-/*  FOOTER */
+/* FOOTER */
 footer {
   background-color: #F4F7FA;
   padding: 25px;
-  color: white;
+  color: #707070;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-
-/* Mobile Changes  */
-
-@media (max-width: 500px)
-{
-    #removeMobile
-    {
-        display: none;
-    }
 }

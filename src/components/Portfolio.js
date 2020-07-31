@@ -7,6 +7,7 @@ import {Card, Button, CardImg, CardTitle, CardText,CardBody
 
 function Projects(props) {
   return (
+    // <main>
     <div className="featured-projects">
       <div className="row">
         <div className="col col-md-6">
@@ -23,7 +24,7 @@ function Projects(props) {
           </Card>
         </div>
      
-        <div className="col col-md-6">
+        {/* <div className="col col-md-6">
           <Card>
             <Button id="project-button" block>{props.name}</Button>
             <CardImg top width="100%" src={props.picture} alt="website image"/>
@@ -35,10 +36,10 @@ function Projects(props) {
               <CardTitle style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832"}}> GITHUB | DEPLOYED SITE</CardTitle>
             </CardBody>
           </Card>
-        </div>
+        </div> */}
       </div>
-        
       </div> 
+      // </main>
   );
 };
   

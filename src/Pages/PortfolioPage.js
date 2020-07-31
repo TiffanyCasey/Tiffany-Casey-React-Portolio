@@ -3,7 +3,11 @@ import Portfolio from '../components/Portfolio'
 
 const PorfolioPage = (props) => {
 return (
-    < Portfolio />
+<main>
+    <div className ="grid-container">
+        < Portfolio />
+    </div>
+</main>
  );
 }
 
