@@ -7,6 +7,7 @@
 
 * {
   font-family: sweet-sans-pro, sans-serif; 
+  color: #707070;
 }
 
 main {
@@ -23,6 +24,7 @@ body {
 
 button {
   background-color: #5586B8;
+  border-color: #5586B8;
   border: none;
   color: white;
   align-items: center;
@@ -37,32 +39,7 @@ h1 {
   padding-bottom: 20px;
 }
 
-/* unvisited link */
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-  text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-/* selected link */
-a:active {
-  color: white;
-  text-decoration: none;
-}
-
 /* NAV BAR */
-
 #favicon {
   color: #1F8832;
   font-style: bold;
@@ -75,8 +52,7 @@ a:active {
   font-size: 60px;
 }
 
-.nav-link , .mr-auto{
-  color: #707070;
+.nav-link , .mr-auto {  
   font-size: 20px;
   float:right;
   margin-left: auto;
@@ -123,7 +99,6 @@ header {
 /*  ABOUT PAGE CONTAINER  */
 .App-header {
   background-color: #F4F7FA;
-  padding: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,17 +108,15 @@ header {
 }
 
 a, #link {
-  color: green !important;
+  color:#1F8832 !important;
 }
 
 .about-container {
-  padding: 20px;
-  
+  padding: 60px;
 }
 
 .Tiffany-Image {
   margin-top: 10%;
-  margin-left: -20px;
   border-radius: 160px;
   width: auto ;
   max-width: 100% ;
@@ -158,14 +131,13 @@ a, #link {
 
 #about-header {
   font-size: 45px;
-  color: #707070;
+  color: #5586B8;
   font-style: italic;
   padding-bottom: 10px;
 }
 
 #about-text {
 font-size: 25px;
-color: #707070;
 line-height: 48px;
 }
 
@@ -174,14 +146,14 @@ line-height: 48px;
 }
 
 /* FEATURED PROJECTS  */
-
 .buttonWrapper {
   background-color: #F4F7FA;
-  padding-top: 80px;
-  padding-bottom: 90px;
+  padding-top: 10px;
+  padding-bottom: 80px;
 }
 
 .wrapper {
+  padding: 40px;
   background-color: #F4F7FA;
   height: 100%;
   display: flex;
@@ -192,9 +164,8 @@ line-height: 48px;
 }
 
 .card {
-  margin: 1rem;
   position: relative;
-  width: 40vh;
+  width: 43vh;
   text-align: left;
 }
 
@@ -231,10 +202,32 @@ line-height: 48px;
   margin: 20px;
 }
 
-div .portfolio-link {
+.portfolio-link {
   text-align: center;
-  margin-right:10px;
+}
 
+/* unvisited link */
+a, #github, #website, .external-links:link {
+  color:#1F8832 !important;
+  text-decoration: none;
+}
+
+/* visited link */
+a, #github, #website, .external-links:visited {
+  color:#1F8832 !important;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a, #github, #website, .external-links:hover {
+  color: #1F8832!important;
+  text-decoration: none;
+}
+
+/* selected link */
+a, #github, #website, .external-links:active {
+  color: #1F8832 !important;
+  text-decoration: none;
 }
 
 /* SKILLS CONTAINER */
@@ -254,6 +247,30 @@ th {
   text-align: center;
   padding: 80px;
   height: 100%;
+}
+
+/* unvisited link */
+a, #portfolioButton:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a, #portfolioButton:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a, #portfolioButton:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* selected link */
+a, #portfolioButton::active {
+  color: white;
+  text-decoration: none;
 }
 
 /* RESUME CONTAINER - CURRENTLY INACTIVE */
@@ -291,7 +308,6 @@ th {
 footer {
   background-color: #F4F7FA;
   padding: 25px;
-  color: #707070;
   text-align: center;
 }
 
@@ -301,6 +317,80 @@ body {
   margin: 0 !important
 }
 
+/* HEADER */
+/* removes full logo when in mobile mode */
+#removeMobile {
+  display: none;
+}
+/* adds abbreviated log in mobile mode */
+#favicon {
+display: flex;
+color: #1F8832 !important;
+}
+
+/* ABOUT  */
+.App-header {
+  background-color: #F4F7FA;
+  padding-top: 0px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.about-container {
+  padding: 0px;
+}
+
+.Tiffany-Image {
+  padding-bottom: 40px;
+}
+
+p, #about-text {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+p, #about-header {
+  font-size: 40px;
+}
+
+.wrapper {
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #F4F7FA;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+p, #card-text {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+p, #card-title {
+  font-size: 16px !important;
+  line-height: 30px;
+}
+
+#github, #website{
+    font-size: 15px !important;
+    margin:5px;
+}
+
+.buttonWrapper {
+    padding-bottom: 30px;
+}
+
+/* SKILLS */
 table, .table-responsive {
   width: 320px !important;
   padding: 0 0;
@@ -310,16 +400,12 @@ table, .table-responsive {
 th {
   display: block !important;
   text-align: center;
-  }
+  font-size: 25px;
+  line-height: 20px;
+}
 
-  /* removes full logo when in mobile mode */
-  #removeMobile {
-      display: none;
-  }
-
-  /* adds abbreviated log in mobile mode */
-  #favicon {
-    display: flex;
-    color: #1F8832 !important;
-  }
+div, .resumeWrapper {
+  padding-top: 0px;
+}
+   
 }

@@ -53,6 +53,7 @@ class App extends Component {
        <div className="buttonWrapper">
         <button
           type="submit"
+          id="portfolioButton"
           className="profile btn-lg"
           onClick={(event) => (window.location.href = "portfolio")}
           >

@@ -2,9 +2,12 @@ import React from "react";
 import {Card, Button, CardImg, CardTitle, CardText,CardBody
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
+import Wrapper from './Wrapper';
 
 function Projects(props) {
   return (
+
+    <Wrapper>
     <div className="card">
       <div className="img-container">
         <Card>
@@ -34,6 +37,7 @@ function Projects(props) {
               <div className="portfolio-link">
                 <a
                   className="external-links"
+                  id="github"
                   style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832",textAlign:"center"}}
                   tag={Link} href={`${props.github}`}
                   rel="noopener noreferrer" 
@@ -44,6 +48,7 @@ function Projects(props) {
                 |
                 <a
                   className="external-links"
+                  id="website"
                   style={{fontSize: "18px", fontWeight: "bold", color:"#1F8832", textAlign:"center"}}
                   tag={Link} 
                   href={`${props.site}`}
@@ -58,6 +63,8 @@ function Projects(props) {
         </Card>
       </div>
     </div> 
+
+    </Wrapper>
   );
 };
   

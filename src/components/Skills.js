@@ -1,7 +1,9 @@
 import React from "react";
+import Wrapper from './Wrapper';
 
 function Skills() {
     return (
+      <Wrapper>
       <div className="table-responsive">
           <table className="table table-borderless">
             <tbody>
@@ -40,7 +42,7 @@ function Skills() {
             </a>
       </div>
       </div> 
-     
+      </Wrapper>
     );
   }
   
