@@ -23,7 +23,7 @@ class App extends Component {
       {/* PROJECTS SECTION */}
       <div className='Projects'>
         <Header
-          header="projects."
+          header="featured projects."
         />
 
         <Wrapper>
