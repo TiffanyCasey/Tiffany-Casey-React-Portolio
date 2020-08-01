@@ -13,6 +13,9 @@ class PortfolioPage extends Component {
 
 render () {
 return (
+    
+    <div>
+    <div id="projects" className="page-header">projects.</div>
     <Wrapper>
         {projects.map(project => (
             <Portfolio
@@ -27,6 +30,7 @@ return (
             />
         ))}
     </Wrapper>
+    </div>
   );
 }
 }
