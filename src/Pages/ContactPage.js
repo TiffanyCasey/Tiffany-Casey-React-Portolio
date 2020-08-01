@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as emailjs from "emailjs-com";
-import github from "../components/github.png";
-import linkedin from "../components/linkedin.png";
+import github from "../Images/github.png";
+import linkedin from "../Images/linkedin.png";
 
 const EmailJSID = process.env.REACT_APP_EMAILJS_USERID;
 const Email_address = process.env.TO_NAME;
