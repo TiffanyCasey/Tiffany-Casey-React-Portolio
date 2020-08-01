@@ -13,7 +13,7 @@ function About() {
 
             <div className="col-sm-9">
               <div className="about-container-text">
-                <h2 id="about-header">Hello!!</h2>
+                <h2 id="about-header">Hello!</h2>
                 <p id="about-text">
                 My name is Tiffany Casey and I’m a <strong>full stack web developer</strong> leveraging a successful career in tech sales and account management as well as the e-commerce space. I have a certificate in full stack development from the University of North Carolina-Chapel Hill, with skills in HTML, CSS, JavaScript, React.js, and responsive web design.</p>
             
