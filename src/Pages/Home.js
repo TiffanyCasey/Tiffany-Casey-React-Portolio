@@ -55,7 +55,7 @@ class App extends Component {
           type="submit"
           id="portfolioButton"
           className="profile btn-lg"
-          onClick={(event) => (window.location.href = "portfolio")}
+          onClick={(event) => (window.location.href = "/portfolio")}
           >
           SEE FULL PORTFOLIO
           </button>
