@@ -411,9 +411,9 @@ body {
 
 .Tiffany-Image {
   padding-bottom: 40px;
+  padding-top: 10px !important;
   padding: 40px;
-  margin-top: 0px;
-
+  margin-top: 0px !important;
 }
 
 p, #about-text {
